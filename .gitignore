@@ -1,0 +1,7 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/Fountain.WinForm.AutoUpdater/FileContentIndex/2f2f8b87-7a44-47e6-85ec-6f2aa3e0d25e.vsidx
+/.vs/Fountain.WinForm.AutoUpdater/v17
+/Fountain.WinForm.AutoUpdater/obj/Debug/Fountain.WinForm.AutoUpdater.csproj.FileListAbsolute.txt

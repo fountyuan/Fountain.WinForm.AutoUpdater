@@ -221,7 +221,7 @@ namespace Fountain.WinForm.AutoUpdater
                 //列表定位到第一行
                 this.ListViewFiles.TopItem = this.ListViewFiles.Items[0];
 
-                ReplaceFile(Variable.LocalUpdateTempPath, Application.StartupPath);
+                this.UpdateReplace(Variable.LocalUpdateTempPath, Application.StartupPath);
                 //更新配置文件列表
                 System.IO.File.Copy(Variable.LocalUpdateTempPath + Variable.LOCAL_VERSION_FILE, Application.StartupPath + Path.DirectorySeparatorChar+ Variable.LOCAL_VERSION_FILE, true);
                 
@@ -245,7 +245,7 @@ namespace Fountain.WinForm.AutoUpdater
         /// </summary>
         /// <param name="sourcePath"></param>
         /// <param name="targetPath"></param>
-        public void ReplaceFile(string sourcePath, string targetPath)
+        public void UpdateReplace(string sourcePath, string targetPath)
         {
             try
             {
@@ -269,7 +269,7 @@ namespace Fountain.WinForm.AutoUpdater
                     for (int i = 0; i < subDirectory.Length; i++)
                     {
                         string[] childdir = subDirectory[i].Split('\\');
-                        ReplaceFile(subDirectory[i], targetPath + @"\" + childdir[childdir.Length - 1]);
+                        UpdateReplace(subDirectory[i], targetPath + @"\" + childdir[childdir.Length - 1]);
                     }
                 }
             }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fountain.WinForm.AutoUpdater", "Fountain.WinForm.AutoUpdater\Fountain.WinForm.AutoUpdater.csproj", "{5377DBE6-9DD1-4F51-8EB9-738EC451E61A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5377DBE6-9DD1-4F51-8EB9-738EC451E61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5377DBE6-9DD1-4F51-8EB9-738EC451E61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5377DBE6-9DD1-4F51-8EB9-738EC451E61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5377DBE6-9DD1-4F51-8EB9-738EC451E61A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2247CA57-371F-4564-BE2B-5A56E63B5AC1}
+	EndGlobalSection
+EndGlobal

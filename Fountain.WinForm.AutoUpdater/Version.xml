@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configure>
+	<Description>Fountain WinForm App</Description>
+	<Updater>
+		<url>http://10.211.55.3/update</url>
+		<UpdateDateTime>2024-04-05</UpdateDateTime>
+		<EntryPoint>FountainWinForm.exe</EntryPoint>
+		<Version>3.8.0.24043</Version>
+	</Updater>
+	<Files>
+		<File Version="1.2.11.0" Name="log4net.dll" DateTime="2023-4-26" />
+		<File Version="3.8.0.24043" Name="FountainWinForm.exe" DateTime="2024-04-05" />
+		<File Version="1.0.0.2403" Name="AutoUpdater.exe" DateTime="2024-04-05" />
+	</Files>
+</configure>
